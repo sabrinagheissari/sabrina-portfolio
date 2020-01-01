@@ -4,11 +4,20 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 .main-body {
-  padding-top: 20vh;
+  padding-top: 30px;
   padding-bottom: 20vh;
   height: 80vh;
   text-align: center;
   font-family: 'Raleway';
+}
+
+.big-avatar {
+  height: 250px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 50%;
+  object-position: top;
+  object-fit: cover;
 }
 
 .intro-sab {
@@ -50,7 +59,8 @@
   height: 1200px;
   width: 100%;
   background-color: white;
-  position: relative;
+  position: absolute;
+  overflow: scroll;
 }
 
 
@@ -82,3 +92,20 @@
   text-decoration: none !important;
   outline: none !important;
 }
+
+.more-card {
+  opacity: .5;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.data-body {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  opacity: .6;
+  background-color: white;
+  border-radius: 8px;
+}
+
