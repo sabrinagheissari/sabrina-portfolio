@@ -8,7 +8,7 @@ $navbar-bg: white;
 /* -------------------------------------
  * Box model
  * ------------------------------------- */
-$navbar-height: 150px;
+$navbar-height: 40px;
 $navbar-vertical-padding: 5px;
 $navbar-horizontal-padding: 20px;
 $navbar-border-bottom-width: 0;
@@ -17,7 +17,7 @@ $navbar-border-bottom-color: grey;
 /* -------------------------------------
  * Navbar button
  * ------------------------------------- */
-$navbar-btn-height: 40px;
+$navbar-btn-height: 35px;
 $navbar-btn-bg: lightgrey;
 $navbar-btn-color: white;
 $navbar-btn-horizontal-padding: 10px;
@@ -43,6 +43,7 @@ $navbar-profile-border-width: 2px;
   border-bottom: $navbar-border-bottom-width solid $navbar-border-bottom-color;
   min-height: 0;
   transition: background 0.4s ease;
+  opacity: .4;
 
   .navbar-nav > li > a,
   .navbar-nav > .open > a,
@@ -90,7 +91,7 @@ $navbar-profile-border-width: 2px;
 
   .navbar-brand img, .navbar-brand svg {
     height: $navbar-height;
-    padding: 16px;
+    padding: none;
     width: $navbar-height;
     border-radius: 50%;
     object-position: top;
