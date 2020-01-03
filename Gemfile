@@ -25,4 +25,9 @@ gem 'font-awesome-sass'
 ## SCSS glob compiling
 gem 'sass-globbing'
 ## Middleman sprockets
-gem 'middleman-sprockets'
+gem 'middleman-sprockets', "~> 4.1.0"
+# gem 'sprockets', github: 'rails/sprockets'
+# gem "sassc"
+
+# gem 'sass-rails'
+# gem 'bootstrap', '~> 4.1.3'
