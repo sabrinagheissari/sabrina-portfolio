@@ -124,7 +124,7 @@ DEPENDENCIES
   jquery-middleman
   middleman (~> 4.2)
   middleman-gh-pages
-  middleman-sprockets (~> 4.1.0)
+  middleman-sprockets
   sass-globbing
   tzinfo-data
   wdm (~> 0.1.0)
